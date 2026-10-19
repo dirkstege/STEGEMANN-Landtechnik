@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=STEGEMANN Landtechnik
+Exec=webapp-container --app-id="stegemannlandtechnik.dirkstege" --webappUrlPatterns="https?://stegemann-landtechnik.chayns.site/*" --store-session-cookies https://stegemann-landtechnik.chayns.site/
+Icon=assets/logo.png
+Terminal=false
+Type=Application
+X-Lomiri-Touch=true

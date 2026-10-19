@@ -1,0 +1,15 @@
+{
+    "name": "stegemannlandtechnik.dirkstege",
+    "description": "STEGEMANN Landtechnik – Ihre Landtechnik auf Ubuntu Touch",
+    "architecture": "$ENV{ARCH}",
+    "title": "STEGEMANN Landtechnik",
+    "hooks": {
+        "stegemannlandtechnik": {
+            "apparmor": "stegemannlandtechnik.apparmor",
+            "desktop":  "stegemannlandtechnik.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Dirk Stegemann <dirk@stegemann.de>",
+    "framework" : "$ENV{CLICK_FRAMEWORK}"
+}
